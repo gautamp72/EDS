@@ -1,0 +1,94 @@
+.site-footer {
+  background-color: #111827;
+  color: #d1d5db;
+  padding: 60px 20px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  color: #9ca3af;
+  max-width: 300px;
+}
+
+.footer-links h4,
+.footer-social h4 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-social .social-icons a {
+  margin-right: 15px;
+  color: #9ca3af;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-social .social-icons a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #374151;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 40px;
+}
+
+.logo2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img2 {
+  height: 40px; /* or 50px, depending on navbar height */
+  width: auto; /* maintains aspect ratio */
+}
+
+.logo-text2 {
+  margin-left: 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1; /* ensures consistent vertical spacing */
+}
