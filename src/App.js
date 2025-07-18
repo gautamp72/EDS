@@ -16,7 +16,7 @@ function App() {
           <span className="logo-text">EDS</span>
         </a>
         <div class="nav-links" data-aos="slide-down" data-aos-delay="200">
-          <a href="#">SERVICES</a>
+          <a href="#services">SERVICES</a>
           <a href="#">CASE STUDIES</a>
           <a href="#industries">INDUSTRIES</a>
           <a href="#">RESOURCES</a>
@@ -28,7 +28,7 @@ function App() {
       </nav>
       <Intro class="block" />
       <Aboutus id="about" data-aos="fade-left" />
-      <WhatWeDo data-aos="fade-left" />
+      <WhatWeDo data-aos="fade-left" id ="services" />
       <Industries data-aos="fade-left" id="industries"/>
       <Contactus id="contact" data-aos="fade-left" />
       <Footer data-aos="fade-left" />

@@ -6,7 +6,7 @@ const WhatWeDo = () => {
     <div>
       <section class="what-we-do-section" id="services" data-aos="fade-right">
         <div class="what-we-do-container">
-          <h2>What We Do</h2>
+          <h2>Services</h2>
           <div class="cards">
             <div class="card">
               <div class="icon">
