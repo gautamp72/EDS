@@ -6,6 +6,9 @@ import WhatWeDo from "./WhatWeDo";
 import Industries from "./Industries";
 import Contactus from "./Contactus";
 import Footer from "./Footer";
+import CreateServices from "./CreateServices";
+import Modal from "./Modal";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -28,8 +31,8 @@ function App() {
       </nav>
       <Intro class="block" />
       <Aboutus id="about" data-aos="fade-left" />
-      <WhatWeDo data-aos="fade-left" id ="services" />
-      <Industries data-aos="fade-left" id="industries"/>
+      <WhatWeDo data-aos="fade-left" id="services" />
+      <Industries data-aos="fade-left" id="industries" />
       <Contactus id="contact" data-aos="fade-left" />
       <Footer data-aos="fade-left" />
     </div>
